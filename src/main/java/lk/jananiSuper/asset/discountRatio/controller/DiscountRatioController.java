@@ -1,4 +1,7 @@
 package lk.jananiSuper.asset.discountRatio.controller;
+import lk.jananiSuper.asset.discountRatio.entity.DiscountRatio;
+import lk.jananiSuper.asset.discountRatio.entity.Enum.DiscountRatioStatus;
+import lk.jananiSuper.asset.discountRatio.service.DiscountRatioService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;

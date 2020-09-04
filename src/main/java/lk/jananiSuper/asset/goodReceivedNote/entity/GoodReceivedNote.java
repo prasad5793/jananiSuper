@@ -3,6 +3,10 @@ package lk.jananiSuper.asset.goodReceivedNote.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonFilter;
+import lk.jananiSuper.asset.PurchaseOrder.entity.PurchaseOrder;
+import lk.jananiSuper.asset.goodReceivedNote.entity.Enum.GoodReceivedNoteState;
+import lk.jananiSuper.asset.ledger.entity.Ledger;
+import lk.jananiSuper.util.audit.AuditEntity;
 import lombok.*;
 
 import javax.persistence.*;

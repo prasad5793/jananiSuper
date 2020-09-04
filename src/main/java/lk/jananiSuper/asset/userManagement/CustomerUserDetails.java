@@ -1,5 +1,6 @@
 package lk.jananiSuper.asset.userManagement;
 
+import lk.jananiSuper.asset.userManagement.entity.User;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;

@@ -1,5 +1,7 @@
 package lk.jananiSuper.asset.ledger.dao;
 
+import lk.jananiSuper.asset.item.entity.Item;
+import lk.jananiSuper.asset.ledger.entity.Ledger;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

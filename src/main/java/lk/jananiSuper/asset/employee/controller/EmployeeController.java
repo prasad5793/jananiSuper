@@ -1,5 +1,20 @@
 package lk.jananiSuper.asset.employee.controller;
 
+import lk.jananiSuper.asset.commonAsset.model.Enum.BloodGroup;
+import lk.jananiSuper.asset.commonAsset.model.Enum.CivilStatus;
+import lk.jananiSuper.asset.commonAsset.model.Enum.Gender;
+import lk.jananiSuper.asset.commonAsset.model.Enum.Title;
+import lk.jananiSuper.asset.commonAsset.service.CommonService;
+import lk.jananiSuper.asset.employee.entity.Employee;
+import lk.jananiSuper.asset.employee.entity.EmployeeFiles;
+import lk.jananiSuper.asset.employee.entity.Enum.Designation;
+import lk.jananiSuper.asset.employee.entity.Enum.EmployeeStatus;
+import lk.jananiSuper.asset.employee.service.EmployeeFilesService;
+import lk.jananiSuper.asset.employee.service.EmployeeService;
+import lk.jananiSuper.asset.userManagement.entity.User;
+import lk.jananiSuper.asset.userManagement.service.UserService;
+import lk.jananiSuper.util.service.DateTimeAgeService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

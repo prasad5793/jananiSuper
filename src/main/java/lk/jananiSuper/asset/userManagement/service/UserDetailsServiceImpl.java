@@ -1,5 +1,8 @@
 package lk.jananiSuper.asset.userManagement.service;
 
+import lk.jananiSuper.asset.userManagement.CustomerUserDetails;
+import lk.jananiSuper.asset.userManagement.dao.UserDao;
+import lk.jananiSuper.asset.userManagement.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

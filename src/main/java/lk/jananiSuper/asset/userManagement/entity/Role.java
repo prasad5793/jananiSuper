@@ -2,6 +2,7 @@ package lk.jananiSuper.asset.userManagement.entity;
 
 
 
+import lk.jananiSuper.util.audit.AuditEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

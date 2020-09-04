@@ -1,6 +1,10 @@
 package lk.jananiSuper.asset.supplier.controller;
 
 
+import lk.jananiSuper.asset.supplier.entity.Supplier;
+import lk.jananiSuper.asset.supplier.service.SupplierService;
+import lk.jananiSuper.util.interfaces.AbstractController;
+import lk.jananiSuper.util.service.MakeAutoGenerateNumberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

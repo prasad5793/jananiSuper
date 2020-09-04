@@ -4,6 +4,12 @@ package lk.jananiSuper.asset.invoice.entity;
 
 import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lk.jananiSuper.asset.customer.entity.Customer;
+import lk.jananiSuper.asset.discountRatio.entity.DiscountRatio;
+import lk.jananiSuper.asset.invoice.entity.Enum.InvoicePrintOrNot;
+import lk.jananiSuper.asset.invoice.entity.Enum.InvoiceValidOrNot;
+import lk.jananiSuper.asset.invoice.entity.Enum.PaymentMethod;
+import lk.jananiSuper.util.audit.AuditEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

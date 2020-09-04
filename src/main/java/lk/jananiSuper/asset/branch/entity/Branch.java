@@ -2,6 +2,8 @@ package lk.jananiSuper.asset.branch.entity;
 
 
 
+import lk.jananiSuper.asset.employee.entity.Employee;
+import lk.jananiSuper.util.audit.AuditEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

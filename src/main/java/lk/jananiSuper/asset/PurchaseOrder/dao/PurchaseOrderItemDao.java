@@ -1,5 +1,8 @@
 package lk.jananiSuper.asset.PurchaseOrder.dao;
 
+import lk.jananiSuper.asset.PurchaseOrder.entity.PurchaseOrder;
+import lk.jananiSuper.asset.PurchaseOrder.entity.PurchaseOrderItem;
+import lk.jananiSuper.asset.item.entity.Item;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

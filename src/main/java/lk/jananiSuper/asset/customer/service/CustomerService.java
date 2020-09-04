@@ -2,6 +2,9 @@ package lk.jananiSuper.asset.customer.service;
 
 
 
+import lk.jananiSuper.asset.customer.dao.CustomerDao;
+import lk.jananiSuper.asset.customer.entity.Customer;
+import lk.jananiSuper.util.interfaces.AbstractService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.data.domain.Example;

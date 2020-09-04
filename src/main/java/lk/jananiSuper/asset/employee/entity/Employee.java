@@ -2,6 +2,15 @@ package lk.jananiSuper.asset.employee.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonFilter;
+import lk.jananiSuper.asset.branch.entity.Branch;
+import lk.jananiSuper.asset.commonAsset.model.Enum.BloodGroup;
+import lk.jananiSuper.asset.commonAsset.model.Enum.CivilStatus;
+import lk.jananiSuper.asset.commonAsset.model.Enum.Gender;
+import lk.jananiSuper.asset.commonAsset.model.Enum.Title;
+import lk.jananiSuper.asset.commonAsset.model.FileInfo;
+import lk.jananiSuper.asset.employee.entity.Enum.Designation;
+import lk.jananiSuper.asset.employee.entity.Enum.EmployeeStatus;
+import lk.jananiSuper.util.audit.AuditEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

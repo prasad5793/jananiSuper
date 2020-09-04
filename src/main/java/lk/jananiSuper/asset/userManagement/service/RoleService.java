@@ -1,5 +1,8 @@
 package lk.jananiSuper.asset.userManagement.service;
 
+import lk.jananiSuper.asset.userManagement.dao.RoleDao;
+import lk.jananiSuper.asset.userManagement.entity.Role;
+import lk.jananiSuper.util.interfaces.AbstractService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.*;
 import org.springframework.data.domain.Example;

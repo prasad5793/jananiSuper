@@ -1,5 +1,7 @@
 package lk.jananiSuper.asset.userManagement.dao;
 
+import lk.jananiSuper.asset.employee.entity.Employee;
+import lk.jananiSuper.asset.userManagement.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

@@ -1,5 +1,7 @@
 package lk.jananiSuper.asset.userManagement.controller;
 
+import lk.jananiSuper.asset.userManagement.entity.Role;
+import lk.jananiSuper.asset.userManagement.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -90,7 +92,7 @@ public class RoleController {
     /*
      * delete role from database
      * */
-    @GetMapping( value = "/remove/{id}")
+    @GetMapping( value = "/remove/{id}" )
     public String removeRole(@PathVariable( "id" ) Integer id) {
         roleService.delete(id);
         return "redirect:/role";

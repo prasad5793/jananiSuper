@@ -3,6 +3,9 @@ package lk.jananiSuper.asset.discountRatio.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonFilter;
+import lk.jananiSuper.asset.discountRatio.entity.Enum.DiscountRatioStatus;
+import lk.jananiSuper.asset.invoice.entity.Invoice;
+import lk.jananiSuper.util.audit.AuditEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

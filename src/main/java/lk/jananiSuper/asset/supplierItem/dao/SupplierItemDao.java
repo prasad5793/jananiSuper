@@ -1,5 +1,9 @@
 package lk.jananiSuper.asset.supplierItem.dao;
 
+import lk.jananiSuper.asset.item.entity.Item;
+import lk.jananiSuper.asset.supplier.entity.Supplier;
+import lk.jananiSuper.asset.supplierItem.entity.Enum.ItemSupplierStatus;
+import lk.jananiSuper.asset.supplierItem.entity.SupplierItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

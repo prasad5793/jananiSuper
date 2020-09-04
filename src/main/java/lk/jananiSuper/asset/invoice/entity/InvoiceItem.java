@@ -3,6 +3,8 @@ package lk.jananiSuper.asset.invoice.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonFilter;
+import lk.jananiSuper.asset.item.entity.Item;
+import lk.jananiSuper.util.audit.AuditEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
