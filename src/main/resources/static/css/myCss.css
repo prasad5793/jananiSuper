@@ -1,5 +1,4 @@
-* {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+* {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Comic Sans", "Courier New",
     georgia, helvetica, impact, "times new roman", "trebuchet ms", verdana,
@@ -11,72 +10,14 @@
     background-image: url('../img/2.jpg');
 }
 
-
 /*html Background - start*/
-body {
+
+body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: url('../img/2.jpg');
+    background: url(2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/*html Background - end*/
-
-/*radio button style -start*/
-.checkbox-round {
-    width: 1.3em;
-    height: 1.3em;
-    background-color: #fff;
-    border-radius: 50%;
-    vertical-align: middle;
-    border: 3px solid #20B2AA;
-    -webkit-appearance: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.checkbox-round:checked {
-    background-color: green;
-}
-
-/*radio button style -end*/
-
-/*mainWindow properties*/
-.lblText {
-    font-size: 16px;
-}
-
-.page-footer {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-
-.btn {
-    box-shadow: 1px 2px 5px #000000;
-    width: 40%;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #03a9f4;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-}
-.btn:hover{
-    cursor: pointer;
-    background: #03f4ac;
-    color: #000;
-
-}
-/* for login form - start*/
-#loginPage {
-    margin-top: 100px;
-    color: white;
 
 }
 
@@ -103,6 +44,14 @@ body {
 
 }
 
+.box h2{
+
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
 .box .form-label-group{
 
     position: relative;
@@ -116,20 +65,31 @@ body {
     color: #fff;
     letter-spacing: 1px;
     margin-bottom: 30px;
-    border: none;
+    border:none;
     border-bottom: 1px solid #fff;
     outline: none;
-    background: transparent;
+    background:transparent;
+}
+/* when a link is enclosed*/
+/*
+.box a{
+
+    text-decoration: none;
+    font-size: 10px;
+    color: #fff;
 }
 
+.box a:hover{
+
+    color: #f43303;
+} */
 .box .form-label-group label{
     position: absolute ;
     top: 0;
     left: 0;
-    font-family: "Times New Roman", Times, serif;
     letter-spacing: 1px;
     padding: 10px 0;
-    font-size: 12px;
+    font-size: 16px;
     color: #fff;
     pointer-events: none;
     transition: .5s;
@@ -139,21 +99,40 @@ body {
 .box .form-label-group input:valid ~ label
 {
 
-    top: -25px;
+    top: -18px;
     left: 0;
     color: #03a9f4;
-    font-family: "Times New Roman";
-    font-size: 8px;
+    font-size: 12px;
+}
+
+.box button{
+
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.box button:hover{
+    cursor: pointer;
+    background: #03f4ac;
+    color: #000;
+
 }
 
 /* for login form - end*/
 /* for summary form - start*/
-.casChqCdt {
+/*.casChqCdt {
     color: var(--error-color);
 }
 
 /* for summary form - end*/
-/* for billing test show - start*/
+/* for billing test show - start
 #tableTestBill {
     font-size: 16px;
 }
@@ -166,7 +145,7 @@ body {
 }
 
 /* for sbilling test show - end*/
-/*main window  - start*/
+/*main window  - start
 .mainWindowText {
     font-size: 1.5rem;
     text-shadow: 0 1px 0 #EEE428,
@@ -216,8 +195,12 @@ img {
     background-color: #f5f5f5 !important;
 }
 
-/*main windo - properties end */
-/*Nav bar - start*/
+main window - properties end
+Nav bar - start
+
+ */
+
+/*
 .dropdown-toggle {
     font-size: 18px;
 !important;
@@ -259,7 +242,7 @@ nav {
     background-color: #ffddca;
     border-radius: 10px;
 }
-
+/*
 #icon {
     height: 250px;
     width: 250px;
@@ -288,8 +271,8 @@ nav {
     border-radius: 5px 20px 0px 15px;
 }
 
-/*Error Message Colour - star*/
-/*main window notification div style- start*/
+/*Error Message Colour - star
+/*main window notification div style- start
 .mainWindSumReport {
     color: #f7f7f7;
     align-content: center;
@@ -303,9 +286,11 @@ nav {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/*main window notification div style- end*/
-/*all button same size according to boostrap btn-sm  - start*/
+/*main window notification div style- end
+/*all button same size according to boostrap btn-sm  - start
+
 button .btn {
+
     padding: 5px 10px !important;
     font-size: 12px !important;
     line-height: 1.5 !important;
@@ -314,7 +299,7 @@ button .btn {
 
 /*all button same size according to boostrap btn-sm  - end*/
 
-/*remove lab test from selected table - start*/
+/*remove lab test from selected table - start
 .removeLabTest {
     color: #f0ad4e;
     font-weight: lighter;
@@ -327,7 +312,7 @@ button .btn {
 
 /*remove lab test from selected table - end*/
 
-/*form  - start*/
+/*form  - start
 label {
    font-size: 18px !important;
     font-max-size: 22px;
@@ -425,13 +410,13 @@ input {
 
 /*form - end*/
 
-/*Table show and hide - start*/
+/*Table show and hide - start
 .display {
     display: none;
 }
 
-/*Table show and hide - end*/
-/*medical Package show area - start*/
+/*Table show and hide - end
+/*medical Package show area - start
 #medicalPackage {
     border: 2px solid blue;
     border-radius: 5px;
@@ -450,7 +435,7 @@ input {
 }
 
 /*medical Package show area - end*/
-/* enter filed validation - start*/
+/* enter filed validation - start
 .valid {
     background-color: #7ae899;
 }
@@ -459,7 +444,7 @@ input {
     background-color: #ff88b3;
 }
 
-/*html 5 filed validation - start */
+/*html 5 filed validation - start
 input:required:invalid, input:focus:invalid {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAeVJREFUeNqkU01oE1EQ/mazSTdRmqSxLVSJVKU9RYoHD8WfHr16kh5EFA8eSy6hXrwUPBSKZ6E9V1CU4tGf0DZWDEQrGkhprRDbCvlpavan3ezu+LLSUnADLZnHwHvzmJlvvpkhZkY7IqFNaTuAfPhhP/8Uo87SGSaDsP27hgYM/lUpy6lHdqsAtM+BPfvqKp3ufYKwcgmWCug6oKmrrG3PoaqngWjdd/922hOBs5C/jJA6x7AiUt8VYVUAVQXXShfIqCYRMZO8/N1N+B8H1sOUwivpSUSVCJ2MAjtVwBAIdv+AQkHQqbOgc+fBvorjyQENDcch16/BtkQdAlC4E6jrYHGgGU18Io3gmhzJuwub6/fQJYNi/YBpCifhbDaAPXFvCBVxXbvfbNGFeN8DkjogWAd8DljV3KRutcEAeHMN/HXZ4p9bhncJHCyhNx52R0Kv/XNuQvYBnM+CP7xddXL5KaJw0TMAF8qjnMvegeK/SLHubhpKDKIrJDlvXoMX3y9xcSMZyBQ+tpyk5hzsa2Ns7LGdfWdbL6fZvHn92d7dgROH/730YBLtiZmEdGPkFnhX4kxmjVe2xgPfCtrRd6GHRtEh9zsL8xVe+pwSzj+OtwvletZZ/wLeKD71L+ZeHHWZ/gowABkp7AwwnEjFAAAAAElFTkSuQmCC);
     background-position: right center;
@@ -478,7 +463,7 @@ input:required:valid {
 /*html 5 filed validation - end */
 
 /* Flaired edges */
-/*<hr/> tag style - start */
+/*<hr/> tag style - start
 hr{
     height: 30px;
     border-style: solid;
