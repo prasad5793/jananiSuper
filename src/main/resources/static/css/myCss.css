@@ -16,84 +16,12 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url(2.jpg);
+    background: url('../img/2.jpg');
     background-size: cover;
 
 }
 
-.box{
-    position: absolute;
-    top: 50%;
-    Left: 50%;
-    transform: translate(-50%,-50%);
-    width: 400px;
-    padding: 40px;
-    background: rgba(0,0,0,.8);
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.5);
-    border-radius: 10px;
-}
 
-.avatar{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    position: absolute;
-    top: -50px;
-    left: calc(50% - 50px);
-
-}
-
-.box h2{
-
-    margin: 0 0 30px;
-    padding: 0;
-    color: #fff;
-    text-align: center;
-}
-
-.box .form-label-group{
-
-    position: relative;
-}
-
-.box .form-label-group input{
-
-    width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #fff;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-    border:none;
-    border-bottom: 1px solid #fff;
-    outline: none;
-    background:transparent;
-}
-/* when a link is enclosed*/
-/*
-.box a{
-
-    text-decoration: none;
-    font-size: 10px;
-    color: #fff;
-}
-
-.box a:hover{
-
-    color: #f43303;
-} */
-.box .form-label-group label{
-    position: absolute ;
-    top: 0;
-    left: 0;
-    letter-spacing: 1px;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #fff;
-    pointer-events: none;
-    transition: .5s;
-}
 
 .box .form-label-group input:focus ~ label,
 .box .form-label-group input:valid ~ label
@@ -126,6 +54,36 @@ body{
 }
 
 /* for login form - end*/
+
+/*Supplier html start*/
+
+.row formManagement {
+
+}
+
+.col h2{
+    color: white;
+    text-align: center;
+}
+.col1 .btn{
+    margin-top: 100px;
+    position: fixed;
+    padding-top: 20px;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+tbody btn2 {
+
+    size: sma;
+    btn-sm;
+
+}
+
+
 /* for summary form - start*/
 /*.casChqCdt {
     color: var(--error-color);
