@@ -1,10 +1,7 @@
 package lk.jananiSuper.asset.item.entity;
 
-
 import com.fasterxml.jackson.annotation.JsonBackReference;
-
 import com.fasterxml.jackson.annotation.JsonFilter;
-
 import lk.jananiSuper.asset.PurchaseOrder.entity.PurchaseOrderItem;
 import lk.jananiSuper.asset.category.entity.Category;
 import lk.jananiSuper.asset.item.entity.Enum.ItemStatus;
@@ -27,7 +24,7 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@JsonFilter( "Item" )
+@JsonFilter("Item")
 public class Item extends AuditEntity {
 
     @Size( min = 5, message = "Your name cannot be accepted" )
@@ -49,12 +46,12 @@ public class Item extends AuditEntity {
     private Category category;
 
     @OneToMany( mappedBy = "item" )
-    private List< SupplierItem > supplierItems;
+    private List<SupplierItem> supplierItem;
 
     @OneToMany( mappedBy = "item" )
     @JsonBackReference
-    private List< Ledger > ledgers;
+    private List<Ledger> ledgers;
 
     @OneToMany( mappedBy = "item" )
-    private List< PurchaseOrderItem > purchaseOrderItems;
+    private List<PurchaseOrderItem> purchaseOrderItems;
 }
