@@ -2,10 +2,16 @@
 <html lang="en" >
 <head data-th-replace="~{fragments/header :: headerFragment}" >
   <meta charset="UTF-8" >
-  <title >Samarasinghe Super</title >
+  <title >item-detail</title >
 </head >
-<body>
+<body class="sb-nav-fixed" >
 <nav data-th-replace="~{fragments/navBar :: navBarFragment}" ></nav >
+<div id="layoutSidenav" >
+  <div data-th-replace="~{fragments/sideNav :: sideNavFragment}" >
+  </div >
+  <div id="layoutSidenav_content" >
+    <main >
+
       <!--heading Area-->
       <div class="container-fluid " >
         <div class="row text-center formManagement border-info" >
@@ -231,6 +237,9 @@
           <i class="fa fa-save" style="font-size: 20px" ></i > Print
         </button >
       </div >
+    </main >
+  </div >
+</div >
 <div data-th-replace="~{fragments/footer :: footerFragment}" ></div >
 <!--script include-->
 <div data-th-replace="~{fragments/script :: scriptFragment}" ></div >

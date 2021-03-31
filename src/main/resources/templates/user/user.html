@@ -2,11 +2,16 @@
 <html lang="en" >
 <head  data-th-replace="~{fragments/header :: headerFragment}">
     <meta charset="UTF-8">
-    <title>Samarasinghe Super</title>
+    <title>Thymeleaf Springboot </title>
 </head>
-<body>
+<body class="sb-nav-fixed">
 <nav  data-th-replace="~{fragments/navBar :: navBarFragment}"></nav>
-<img data-th-src="@{'/img/'}" alt="">
+<div id="layoutSidenav">
+    <div  data-th-replace="~{fragments/sideNav :: sideNavFragment}">
+    </div>
+    <div id="layoutSidenav_content">
+        <main>
+
 <div class="container-fluid ">
     <div class="row text-center formManagement border-info">
         <div class="col">
@@ -83,10 +88,11 @@
         </div>
     </div>
 </div>
-
+</main>
 <div   data-th-replace="~{fragments/footer :: footerFragment}"></div>
 <!--script include-->
 <script  data-th-replace="~{fragments/script :: scriptFragment}"></script>
-
+    </div>
+</div>
 </body>
 </html>

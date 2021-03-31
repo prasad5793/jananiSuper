@@ -5,10 +5,17 @@
     <meta charset="UTF-8">
     <title>Thymeleaf Springboot </title>
 </head>
-<body>
+<body class="sb-nav-fixed">
 <nav data-th-replace="~{fragments/navBar :: navBarFragment}"></nav>
 <link data-th-href="@{/css/combo-box-search.css}" media="all" rel="stylesheet" type="text/css"/>
 <link data-th-href="@{/css/modal.css}" media="all" rel="stylesheet" type="text/css"/>
+<div id="layoutSidenav">
+    <div data-th-replace="~{fragments/sideNav :: sideNavFragment}">
+    </div>
+    <div id="layoutSidenav_content">
+        <main  style="margin-top:100px">
+
+
             <!--Creates the popup body-->
             <div class="popup-overlay">
                 <!--Creates the popup content-->
@@ -601,5 +608,5 @@
     }
 
 </script>
-</body>
+</div></div></body>
 </html>
